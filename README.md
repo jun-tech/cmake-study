@@ -8,7 +8,7 @@
 
 
 
-## Step 1: A Basic Starting Point
+# Step 1: A Basic Starting Point
 
 - 起步，安装cmake、cmake-gui
 
@@ -17,7 +17,7 @@ $ sudo apt install cmake
 $ sudo apt install cmake-gui
 ```
 
-### Exercise 1 - Building a Basic Project
+## Exercise 1 - Building a Basic Project
 
 - 构建一个基本项目Step1以及build文件夹
 
@@ -47,7 +47,7 @@ $ ./Tutorial
 
 
 
-### Exercise 2 - Specifying the C++ Standard
+## Exercise 2 - Specifying the C++ Standard
 
 指定标准c++
 
@@ -95,3 +95,6 @@ target_include_directories(Tutorial PUBLIC
 
 ![image-20230503100225175](typora-user-images/image-20230503100225175.png)
 
+# Step 2: Adding a Library
+
+略，后续不再编写，查看官网，除非难理解的
