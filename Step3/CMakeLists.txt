@@ -8,7 +8,7 @@ project(Tutorial VERSION 1.2)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# 自己定义函数，ON表示用户可自定修改接口实现
+# ON表示使用库,OFF表示不使用
 option(USE_MYMATH "Use tutorial provided math implementation" ON)
 
 # 头文件配置，似乎动态生成头文件
