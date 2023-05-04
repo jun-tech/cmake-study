@@ -95,6 +95,26 @@ target_include_directories(Tutorial PUBLIC
 
 ![image-20230503100225175](typora-user-images/image-20230503100225175.png)
 
+
+
 # Step 2: Adding a Library
 
-略，后续不再编写，查看官网，除非难理解的
+使用库
+
+
+
+# Step 3: Adding Usage Requirements for a Library
+
+按需使用库
+
+Step3 Cmakelist.txt 包含目录
+
+Step3.1 采用包含目录引用
+
+学习lib采用目录方式包含
+
+```cmake
+target_include_directories(MathFunctions
+          INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}
+          )
+```
