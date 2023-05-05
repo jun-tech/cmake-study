@@ -118,3 +118,20 @@ target_include_directories(MathFunctions
           INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}
           )
 ```
+
+
+
+# Step 4: Adding Generator Expressions
+
+- 构建编译选项
+
+  比如使用C++标准库编译，先设置参数
+
+  ```
+  set(CMAKE_CXX_STANDARD 11)
+  set(CMAKE_CXX_STANDARD_REQUIRED True)
+  ```
+
+​		
+
+- 使用表达式构建编译选项
